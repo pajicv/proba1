@@ -10,6 +10,10 @@ Ext.define("Proba.view.Machine", {
     initComponent: function() {
 
         Ext.apply(this, {
+            title: 'Mašine',
+            bodyPadding: 10,
+            x: 20, //x koordinata u odnosu na levu stranu prozora
+            y: 20, //y okkoordinata u odnosu na vrh prozora
             width: 300,
             height: 400,
             items:[{

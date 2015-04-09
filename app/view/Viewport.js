@@ -5,7 +5,7 @@ Ext.define('Proba.view.Viewport', {
     ],
 
     layout: {
-        type: 'fit'
+        type: 'absolute' //za apsolutno pozicioniranje forme u okviru prozora
     },
 
     items: [{
